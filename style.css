@@ -1,0 +1,581 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+	color: #333333;
+	font-size: 15px;
+	line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	margin-top: 0;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #3583aa;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #788d98;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 50px;
+}
+
+.global-nav {
+	float: right;
+	margin-top: 60px;
+}
+
+.global-nav li {
+	float: left;
+	margin: 0 20px;
+	font-size: 20px;
+	list-style: none;
+	font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+	color: #ffffff
+}
+
+.global-nav li a:hover {
+	border-bottom: 2px solid #ffffff;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+#wrap {
+	clear: both;
+	background-color: #ffffff;
+	margin-top: 220px;
+	padding: 35px 0;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	color: #ffffff;
+	padding: 20px 0;
+	background-color: #767671;
+}
+
+footer small{
+	font-size: 12px;
+}
+
+#index h1 {
+	font-size: 90px;
+	line-height: 1;
+	color: #ffffff;
+	font-family: 'Bitter','serif';
+	margin-bottom: 50px;
+	border: none;
+}
+
+#index .content {
+	margin-top: 150px;
+}
+
+#index p {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.btn a {
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Bitter','serif';
+	width: 185px;
+	display: block;
+	text-align:center;
+	line-height: 50px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 3px solid #009cd3;
+}
+
+.btn a:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #009cd3;
+}
+
+#index footer {
+	width: 960px;
+	margin: 150px auto 0 auto;
+	text-align: left;
+	background-color: transparent;
+}
+
+#index {
+	background-image: url(../images/bg-index-b.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover
+}
+
+#about {
+	background-image: url(../images/bg-about-b.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.main-center {
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Bitter','serif';
+	font-size: 36px;
+	border-bottom: 1px solid #cccccc
+}
+
+h2 {
+	font-family: 'Bitter','serif';
+	font-size: 24px;
+}
+
+.icon:before {
+	content: "";
+	padding-right: 10px;
+	border-left: 7px solid #9cb4a4;
+}
+
+#about .profile-txt {
+	width: 540px;
+	float: left;
+}
+
+#about .profile-txt span {
+	font-weight: bold;
+}
+
+#about .profile-img {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+section {
+	margin-bottom: 35px;
+}
+
+#about .career th {
+	width: 240px;
+	background-color: #f0f0f0;
+	padding: 12px 0;
+	border: 1px solid #cccccc;
+}
+
+#about .career td {
+	width: 660px;
+	padding: 12px 0 12px 40px;
+	border: 1px solid #cccccc;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse
+}
+
+#index #wrap {
+	background-color: transparent;
+	margin-top: 0;
+	padding: 0;
+}
+
+#portfolio {
+	background-image: url(../images/bg-portfolio-b.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.main {
+	width: 700px;
+	margin: 0 10px;
+	float: left;
+}
+
+.sidebar {
+	width: 200px;
+	margin: 0 10px 0 30px;
+	float: right;
+	font-family: 'Bitter','serif';
+}
+
+a img:hover {
+	opacity: 0.8;
+}
+
+sidebar h2 {
+	margin-bottom: 10px;
+}
+
+.sidebar ul {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.sidebar ul a {
+	color: #333333;
+}
+
+#designworks {
+	background-image: url(../images/bg-works.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#designworks .designworks-list li {
+	float: left;
+	list-style: none;
+	margin: 0 20px 15px 0
+}
+
+#designworks .designworks-list li:nth-child(3n) {
+	margin-right: 0;
+}
+
+#video {
+	background-image: url(../images/bg-video-b.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#contact {
+	background-image: url(../images/bg-contact-b.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#contact .access table {
+	float: left;
+}
+
+#contact .access th,#contact .access td {
+	text-align: left;
+	vertical-align: top;
+	line-height: 2.5;
+}
+
+#contact .access td {
+	padding-left: 30px;
+}
+
+#contact .access iframe {
+	width: 460px;
+	float: right;
+}
+
+#contact form {
+	background-color: #eaeaea;
+	padding: 30px 50px;
+}
+
+#contact .form dl dt {
+	width: 165px;
+	padding: 10px 0;
+	float: left;
+	clear: both;
+}
+
+#contact .form dl dd {
+	padding: 10px 0;
+}
+
+#contact .form .name {
+	width: 240px;
+	height: 30px;
+}
+
+#contact .form .email {
+	width: 300px;
+	height: 30px;
+}
+
+#contact .form  .tel {
+	width: 240px;
+	height: 30px;
+}
+
+#contact .form .type {
+	width: 180px;
+	height: 30px;
+}
+
+#contact .form .message {
+	width: 660px;
+	height: 150px;
+}
+
+#contact .form button {
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 20px;
+	width: 120px;
+	display: block;
+	text-align:center;
+	line-height: 50px;
+	border-radius: 5px;
+	border: 3px solid #009cd3;
+	margin-left: 165px
+}
+
+#contact .form button:hover {
+	background-color: #ffffff;
+	color: #009cd3;
+	cursor: pointer;
+}
+
+#contact .form .required:after {
+	content: " * ";
+	color: #ff0000
+}
+
+#contact .form .attention {
+	margin: 20px 0 0 165px;
+}
+
+@media screen and (max-width:600px){
+/*	画面サイズが600px以下の場合に適用*/
+	
+	body{
+		font-size: 3.5vw;
+	}
+	
+	h1{
+		font-size: 7.2vw;
+	}
+	
+	h2{
+		font-size: 6vw;
+	}
+	
+	header{
+		width: auto;
+		margin: 0 5%;
+	}
+	
+	.logo{
+		float: none;
+		margin-top: 60px;
+		text-align: center;
+	}
+	
+	.global-nav li{
+		display: inline;
+		float: none;
+		margin: 0 8px;
+	}
+	
+	#wrap{
+		margin-top: 40px;
+		padding: 35px 0 0;
+	}
+	
+	.content{
+		width: 100%;
+	}
+	.main{
+		float: none;
+		width: auto;
+		margin: 0 5%;
+	}
+	
+	h2 img{
+		max-width: 100%;
+	}
+	
+	#portfolio {
+		background-image: url(../images/bg-portfolio-b.jpg)
+	}
+	
+	.sidebar{
+		width: auto;
+		float: none;
+		margin: 0;
+		padding: 30px 10% 10px;
+		background-color: #f7f6f4;
+	}
+	
+	#index {
+		background-image: url(../images/bg-index-sp.jpg);
+	}
+	
+	#index h1 {
+		font-size: 8vw;
+		line-height: 11vw
+	}
+	
+	#index p{
+		font-size: 3.5vw;
+		margin-right: 5%
+	}
+	
+	#index .content{
+		margin: 40vw 5% 0;
+	}
+	
+	#index .btn {
+		
+	}
+	
+	#index .btn a{
+		width: 338px;
+		margin-top: 10vw
+	}
+	
+	
+	#index footer{
+		width: auto;
+		margin: 15vw 5% 0;
+	}
+	
+	#designworks .designworks-list li {
+	float: none;
+	list-style: none;
+	margin: 0;
+	padding: 0 18% 10vw
+	}
+	
+	#video iframe{
+		width: 350px;
+		height: auto;
+	}
+	
+	#about .profile-txt {
+	width: auto;
+	float: none;
+}
+
+#about .profile-txt span {
+	font-weight: bold;
+}
+
+#about .profile-img {
+	float: none;
+}
+
+	#about .career th {
+	width: 100px;
+	padding: 12px 0;
+}
+
+#about .career td {
+	width: 240px;
+	padding: 12px 10px 12px 15px;
+	border: 1px solid #cccccc;
+}
+
+	#about .main-center{
+		width: auto;
+		padding-bottom: 5vw;
+		margin: 0 5%
+	}
+	
+	#contact .main-center{
+		width: auto;
+		margin: 0 5%;
+	}
+	
+	#contact .form .email {
+	width: 230px;
+	height: 30px;
+  }
+	
+	#contact .form .message {
+	width: 230px;
+	height: 150px;
+}
+
+#contact .form button {
+	width: 230px;
+	border: 3px solid #009cd3;
+	margin: 0 0 0 11vw;
+}
+	
+	#contact .form .attention {
+	margin: 5vw 0 0 11vw;
+	width: 62vw
+}
+	
+	#contact .form dl dt {
+	width: 275px;
+}
+	
+	#contact .access iframe {
+	width: 340px;
+	float: none;
+	margin-top: 5vw;
+}
+	
+	.access th {
+		font-size: 2vw;
+		width: 22vw;
+	}
+	
+	.access td{
+		font-size: 3vw
+	}
+	
+	#contact .access table {
+	float: none;
+}
+	#contact .form .name {
+	width: 230px;
+}
+
+  #contact .form .tel {
+	width: 230px;
+	}
+	
+	#contact .contactform{
+		margin-bottom: 0;
+	}
+}
